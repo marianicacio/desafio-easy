@@ -93,8 +93,11 @@ main section div p {
 
 main section button {
     width: 42%;
-    height: 200px;
+    padding: 25px 25px;
     cursor: pointer;
     background-color: #B88E2F;
     border: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
 }

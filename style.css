@@ -101,3 +101,51 @@ main section button {
     font-family: 'Poppins';
     font-weight: 700;
 }
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 56px;
+    gap: 62px;
+}
+
+.hero-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-container div h1 {
+    font-size: 32px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.hero-container div p {
+    font-size: 20px;
+    color: #666666;
+}
+
+.hero-container article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1%;
+}
+
+.hero-container article div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-container article div h2 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: 600;
+}

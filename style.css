@@ -53,7 +53,6 @@ main {
 main section {
     background-color: #FFF3E3;
     width: 45%;
-    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -148,4 +147,97 @@ main section button {
     color: #333333;
     font-size: 24px;
     font-weight: 600;
+}
+
+.cards-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 56px;
+    width: 100%;
+    gap: 32px;
+    justify-content: center;
+}
+
+.cards-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+.cards-wrapper article {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+    position: relative;
+}
+
+.cards-wrapper article div {
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cards-wrapper h1 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.cards-wrapper sub {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.cards-wrapper sub p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    width: 107px;
+    font-size: 16px;
+    text-decoration-line: line-through;
+    color: #B0B0B0;
+}
+
+.cards-wrapper h2 {
+    font-family: 'Poppins';
+    width: 131px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+.cards-wrapper h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.cards-wrapper article div:last-of-type {
+    color: #898989;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.floating {
+    background-color: #E97171;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    top: 5%;
+    right: 5%;
+    width: 48px;
+    position: absolute;
+    height: 48px;
+}
+
+.new {
+    background-color: #2EC1AC;
 }

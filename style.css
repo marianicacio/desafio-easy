@@ -161,13 +161,14 @@ main section button {
 
 .cards-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 3%;
 }
 
 .cards-wrapper article {
     display: flex;
+    margin: 15px;
     flex-direction: column;
     background-color: #F4F5F7;
     position: relative;
@@ -240,4 +241,24 @@ main section button {
 
 .new {
     background-color: #2EC1AC;
+}
+
+.cards-wrapper button {
+    padding: 12px 78px;
+    border: 1px solid #B88E2F;
+    background-color: transparent;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+
+.room {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 42px;
+    background-color: #FCF8F3;
+    padding: 44px 100px;
 }

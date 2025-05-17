@@ -256,9 +256,44 @@ main section button {
 .room {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-top: 70px;
+    justify-content: start;
+    margin-top: 170px;
+    height: 85vh;
     gap: 42px;
     background-color: #FCF8F3;
     padding: 44px 100px;
+}
+
+.room-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.room h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+    width: 422px;
+}
+
+.room p {
+    width: 368px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+}
+
+.room-description button {
+    padding: 12px 36px;
+}
+
+.img-room {
+    display: flex;
+    align-items: start;
+    gap: 24px;
+    position: absolute;
+    right: 0px;
 }

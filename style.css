@@ -261,7 +261,7 @@ main section button {
     height: 85vh;
     gap: 42px;
     background-color: #FCF8F3;
-    padding: 44px 100px;
+    padding: 44px 70px;
 }
 
 .room-description {
@@ -288,6 +288,13 @@ main section button {
 
 .room-description button {
     padding: 12px 36px;
+    width: 42%;
+    background-color: #B88E2F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins';
 }
 
 .img-room {

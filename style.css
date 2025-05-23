@@ -407,3 +407,12 @@ main section button {
     width: 48px;
     height: 48px;
 }
+
+.furniture-container {
+    display: flex;
+}
+
+.furniture {
+    display: flex;
+    flex-direction: column;
+}

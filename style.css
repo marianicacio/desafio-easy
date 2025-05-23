@@ -338,7 +338,7 @@ main section button {
     justify-content: center;
 }
 
-.img-room article {
+.img-room section article {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -359,4 +359,51 @@ main section button {
     justify-content: center;
     padding: 18px 15px 18px 15px;
     margin-top: 71px;
+}
+
+.balls {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 450px;
+    right: 278px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #D8D8D8;
+    position: relative;
+}
+
+.ball.active {
+    background-color: #B88E2F;
+}
+
+.ball.active::after {
+    content: '';
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid #B88E2F;
+    width: 27px;
+    height: 27px;
+    top: -90%;
+    left: -90%;
+    border-radius: 50%;
+}
+
+.arrow-room {
+    position: absolute;
+    right: 55px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
 }

@@ -408,11 +408,25 @@ main section button {
     height: 48px;
 }
 
+.funiro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .furniture-container {
     display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .furniture {
     display: flex;
     flex-direction: column;
+    gap: 16px;
+}
+
+.furniture div {
+    display: flex;
 }

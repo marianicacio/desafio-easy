@@ -413,20 +413,20 @@ main section button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .furniture-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 16px;
 }
 
 .furniture {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 16px;
-}
-
-.furniture div {
-    display: flex;
 }

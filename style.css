@@ -307,10 +307,10 @@ main section button {
 }
 
 .img-resp {
-    max-width: 36%;
+    max-width: 39%;
     height: auto;
     display: block;
-  }
+}
 
 .img-room section {
     position: absolute;
@@ -413,20 +413,59 @@ main section button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    margin-top: 67px;
+}
+
+.funiro-container h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #616161;
+}
+
+.funiro-container h2 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #3A3A3A;
+}
+
+.align {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.end {
+    display: flex;
+    align-items: end;
+    justify-content: end;
 }
 
 .furniture-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
+    width: 100%;
 }
 
-.furniture {
+.furniture-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.furniture-container article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
+}
+
+.furniture-container article div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2%;
+    margin: 2%;
 }
